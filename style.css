@@ -1,0 +1,25 @@
+#cuadrado {
+    width: 100px;
+    height: 100px;
+    background: #aaa;
+    animation: mianimacion;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    position: relative;
+    animation-timing-function:ease ;
+    animation-iteration-count: infinite;
+
+
+}
+
+ @keyframes mianimacion {
+
+    0% {background-color:#aaa;left:0; top: 0px   }
+    25% {background: red;left:1250px;top:0px }
+    50% {background: green;left:1250px; top:530px }
+    75% {background: pink;left:0; top:530px  }
+    100% {background: blue;left:0; top: 0px }
+
+
+ }
+ 
